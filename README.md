@@ -1,7 +1,7 @@
 # python-package-example
 A simple example of how to create your own python package.
 
-A detailed tutorial can be found [here](https://betterscientificsoftware.github.io/python-for-hpc/tutorials/python-pypi-packaging/)
+A detailed tutorial can be found [here](https://betterscientificsoftware.github.io/python-for-hpc/tutorials/python-pypi-packaging/).
 
 ## Folder structure
 
