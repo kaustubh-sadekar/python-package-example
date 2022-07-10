@@ -7,27 +7,20 @@ this_directory = path.abspath(path.dirname(__file__))
 
 description = 'An example python package'
 
-try:
-    with open(path.join(this_directory, 'stereocv/README.rst'), "r") as f:
-        long_description = f.read()
-except:
-    long_description = description
+long_description = description
 
-version = '1.1.3'
+version = '0.1.0'
 
 setup(
-  name = 'mathfun',
-  packages = ['mathfun'],
+  name = 'mathfun', # Name of the package
+  packages = ['mathfun'], # name of the folder containing the package (ideally keep it same as the package name)
   version = version,
   license='MIT',        
   description = description,
   long_description=long_description,
   long_description_content_type="text/x-rst",
   author = 'Kaustubh Sadekar',
-  # url = 'https://kaustubh-sadekar.github.io',
-  # download_url = 'https://github.com/kaustubh-sadekar/OmniCV-Lib/archive/v_%s.tar.gz'%version,
   keywords = ['Computer Vision', 'Helper functions'],
-  # package_data={'':['README.rst']},
   classifiers=[
     'Development Status :: 3 - Alpha',      
     'Intended Audience :: Developers',
@@ -36,5 +29,7 @@ setup(
     'Programming Language :: Python :: 3',   
     'Programming Language :: Python :: 3.6',
     'Programming Language :: Python :: 3.7',
+    'Programming Language :: Python :: 3.8',
+    'Programming Language :: Python :: 3.9',
   ],
 )
