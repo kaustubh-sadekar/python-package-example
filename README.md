@@ -43,4 +43,6 @@ pip install .
 ```
 
 Make sure you are in the directory containing the setup.py when you run the above commands.
+
+Refer [example1.py](example1.py) to understand how to your installed package.
  
