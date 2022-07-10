@@ -1,7 +1,8 @@
-import numpy as np 
+import numpy as np
+from ..ops.basic import add1
 
 def add_arr(a, b):
-  return a+b
+  return add1(a, b)
 
 def sub_arr(a, b):
   return a - b
